@@ -19,12 +19,12 @@ spec:
         - containerPort: 5000
         env:
         - name: MYSQL_HOST
-          value: "127.0.0.1"
+          value: "34.58.86.28"
         - name: MYSQL_USER
-          value: "dbuser"
+          value: "app_user"
         - name: MYSQL_PASSWORD
-          value: "dbpassword"
+          value: "app_pass123"
         - name: MYSQL_DB
-          value: "testdb"
+          value: "app_db "
         - name: MYSQL_PORT
           value: "3306"
