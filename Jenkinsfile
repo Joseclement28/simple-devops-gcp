@@ -6,7 +6,7 @@ pipeline {
         REGION = "us-central1"
         CLUSTER = "devops-cluster"
         ZONE = "us-central1-a"
-        REPO = "us-central1-docker.pkg.dev/amiable-archive-473111-d4/my-repo"
+        REPO = "us-central1-docker.pkg.dev/amiable-archive-473111-d4/devops-repo"
     }
 
     stages {
