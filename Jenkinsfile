@@ -33,7 +33,7 @@ pipeline {
 
         stage('Deploy to GKE') {
             steps {
-                sh 'gcloud container clusters get-credentials $CLUSTER --zone $ZONE --project $PROJECT_ID'
+                sh 'gcloud container clusters get-credentials $CLUSTER --zone $REGION --project $PROJECT_ID'
                 sh 'kubectl apply -f k8s/'
             }
         }
