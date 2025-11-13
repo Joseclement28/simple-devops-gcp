@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: us-central1-docker.pkg.dev/amiable-archive-473111-d4/ devops-repo/backend:v1
+        image: us-central1-docker.pkg.dev/amiable-archive-473111-d4/devops-repo/backend:v1
         ports:
         - containerPort: 5000
         env:
