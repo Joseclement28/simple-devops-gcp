@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID = "your-gcp-project-id"
+        PROJECT_ID = "amiable-archive-473111-d4"
         REGION = "us-central1"
-        CLUSTER = "your-gke-cluster"
+        CLUSTER = "devops-cluster"
         ZONE = "us-central1-a"
-        REPO = "us-central1-docker.pkg.dev/${PROJECT_ID}/my-repo"
+        REPO = "us-central1-docker.pkg.dev/amiable-archive-473111-d4/my-repo"
     }
 
     stages {
